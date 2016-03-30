@@ -86,12 +86,12 @@ span.menu {
 	color:#fff;
 }
 .banner {
-  background: url(../images/hvac/_CheckingGauges.jpg)no-repeat;
+  background: url(../images/hvac/hvac-repair-service.jpg)no-repeat;
   min-height: 855px;
   background-size: cover;
 }
 .banner-bottom {
-  padding: 15em 0em 0em 0em;
+  padding: 20em 0em 0em 0em;
   text-align: center;
 }
 .banner-bottom h4 {
@@ -1637,3 +1637,6 @@ span.devide-line {
 }
 }
 /*--media quries end here--*/
+.banner-top {
+    
+}
