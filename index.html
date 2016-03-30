@@ -12,70 +12,54 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="js/jquery-1.11.0.min.js"></script>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/agency.css" rel="stylesheet">
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
-</script>
 <!--Google Fonts-->
 <link href='//fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-	</script>
 <!-- //end-smoth-scrolling -->
-<script src="js/menu_jquery.js"></script>
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
 <!--header start here-->
 <div class="banner">
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">The Right Choice HVAC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          <li><a href="#home" class="active">Home</a></li> 
+						<li><a href="#services">Services</a></li> 
+						<li><a href="#changer">Service Timeline</a></li> 
+                        <li><a href="#client">Testimonials</a></li>
+						<li><a href="#contact">Contact</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://therightchoicehvac.com/get-a-quote"><span class="glyphicon glyphicon-log-in"></span>Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
   <div class="header">
 	<div class="container">
 		 <div class="header-main">
-				<div class="logo">
-				</div>
-				<div class="header-right">
-				<div class="top-nav">
-					<span class="menu"> <img src="images/icon.png" alt=""/></span>
-					<ul class="res">
-					   <li><a href="#home" class="scroll active">Home</a></li> 
-						<li><a class="scroll" href="#services">Services</a></li> 
-						<li><a class="scroll" href="#features">Service Timeline</a></li> 
-						<li><a class="scroll" href="#contact">Contact</a></li> 
-				   </ul>
-					<!-- script-for-menu -->
-						 <script>
-						   $( "span.menu" ).click(function() {
-							 $( "ul.res" ).slideToggle( 300, function() {
-							 // Animation complete.
-							  });
-							 });
-						</script>
-		        <!-- /script-for-menu -->
-				</div>
-				<script type="text/javascript">
-					jQuery(document).ready(function($) {
-						$(".scroll").click(function(event){		
-							event.preventDefault();
-							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-						});
-					});
-					</script>
-			<!---- script-nav ---->
-		 </div>
 		 <div class="clearfix"> </div>
              <div class="banner-bottom">
-		 	<h4 class="banner-top">The Right Choice</h4>
-		 	<h3 class="banner-top">HVAC DONE RIGHT</h3>
-		 </div>
+                 <img src="http://www.therightchoicehvac.com/wp-content/uploads/2013/12/logo-250w.png" class="img-rounded" alt="The Right Choice HVAC">
+                <div class="col-md-12" style="padding: 10px;">
+                </div>
+		  </div>
 	  </div>
 	 </div>
  </div>
@@ -90,21 +74,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="app-in-grd">
 						<span class="glyphicon glyphicon-user" aria-hidden="true"> </span>
 						<h3>Customer Service </h3>
-						<p>Sed ut perspiciatis unde omnis iste natus doloremque laudantium</p>
+						<p>Over 100 Awesome Reviews on Yelp. Service is Our Business. </p>
 				    </div>
 				</div>
 				<div class="col-md-4 app-info-grid app-gd2">
 					<div class="app-in-grd">
 						<span class="glyphicon glyphicon-ok" aria-hidden="true"> </span>
 						<h3>Satisfaction Guaranteed </h3>
-						<p>Sed ut perspiciatis unde omnis iste natus doloremque laudantium</p>
+						<p>We'll do the job right, every time. That's our promise to you. </p>
 					</div>
 				</div>
 				<div class="col-md-4 app-info-grid app-gd3">
 					<div class="app-in-grd">
 						<span class="glyphicon glyphicon-star" aria-hidden="true"> </span>
 						<h3>Top Quality </h3>
-						<p>Sed ut perspiciatis unde omnis iste natus doloremque laudantium</p>
+						<p>Fast, friendly and insightful technicians deliver outstanding quality.</p>
 					</div>
 				</div>
 			  <div class="clearfix"> </div>
@@ -119,28 +103,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="services-main">
 		  <div class="services-top">
 		  	 <h3>Services</h3>
-		  	 <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+		  	 <p>Here's a short list of what we specialize in.</p>
 		  </div>
 		  <div class="service-bottom">
 			<div class="col-md-4 serv-grids">
 				<div class="ser-border">
-					<span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span>
+					<span class="glyphicon glyphicon-star" style="color:black;" aria-hidden="true"> </span>
 					<h4>Service and Repairs</h4>
-					<p>voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p>
+					<p>We can service, clean and repair all of your A/C + Heating Appliances.</p>
 			    </div>
 			</div>
 			<div class="col-md-4 serv-grids">
 				<div class="ser-border">
-					<span class="glyphicon glyphicon-user" aria-hidden="true"> </span>
+					<span class="glyphicon glyphicon-star" style="color:black;" aria-hidden="true"> </span>
 					<h4>HVAC Install</h4>
-					<p>voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p>
+					<p>We Can Help You With Heating, AC, Air Duct and Insulation Installations. </p>
 			    </div>
 			</div>
 			<div class="col-md-4 serv-grids">
 				<div class="ser-border">
-					<span class="glyphicon glyphicon-hourglass" aria-hidden="true"> </span>
+					<span class="glyphicon glyphicon-star" style="color:black" aria-hidden="true"> </span>
 					<h4>Insulation</h4>
-					<p>voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p>
+					<p>Attic, Batt, Garadge, R19/R30 and More! Contact us for details.</p>
 			   </div>
 			</div>
 		 <div class="clearfix"> </div>
@@ -150,7 +134,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <!--app end here-->
 <!-- changer start here-->
-<div class="changer">
+<div class="changer" id="changer">
 	<div class="container">
 		  <div class="changer-top">
 					<h3>Right Choice Sevice Timeline</h3>
@@ -161,11 +145,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<img src="images/12.jpg" alt="" class="img-responsive">
 					</div>
 					<div class="changer-right">
-						<h4>Speak to a Knowlegable Technician</h4>
-						<p>Lorem ipsum dolor sit amet, rebum dolore labores Ferri iudico scripta.</p>
+						<h4>Call Us</h4>
+						<p style="color:black">Speak with a knowledgeable representative to identify solutions for your problem.</p>
 					</div>
 					<div class="changer-left-snd">
 						 <h4>Book an Appointment</h4>
+                        <p>Schedule a Same-Next Day Home Visit.</p>
 					</div>
 					<div class="changer-right-snd">
 						<img src="images/13.jpg" alt="" class="img-responsive">
@@ -174,8 +159,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<img src="images/14.jpg" alt="" class="img-responsive">
 					</div>
 					<div class="changer-right-trd">
-						<h4>Savings and Safety</h4>
-						<p>Lorem ipsum dolor sit amet rebum dolore labores.</p>
+						<h4>Evaluate Your Options</h4>
+						<p style="color:black">Our technicians will help walk you through your options, so you can make an smart, informed decision.</p>
 					</div>
 					<div class="changer-left-fvr">
 						<h4>Regular Maintenance</h4>			
@@ -192,88 +177,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--gallery-->
 
 <!--gallery-->
-<!--features start here-->
-<div class="features" id="features">
-	<div class="container">
-		<div class="features-main">
-			<div class="fea-top">
-			  <h3>Service Specifics</h3>
-			  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
-			</div>
-			<div class="feature-botttom">
-					<div class="feature-bott1">
-						<div class="col-md-6 fea-grid">
-							<div class="col-md-5 fea-img">
-								<a href="#"><img src="images/f1.jpg" alt="" class="img-responsive"></a>
-							</div>
-							<div class="col-md-7 fea-text">
-								<h4><a href="#">Et iusto odio dignissimos</a></h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-							 </div>
-						  <div class="clearfix"> </div>
-						</div>
-						<div class="col-md-6 fea-grid">
-							<div class="col-md-5 fea-img">
-								<a href="#"><img src="images/f2.jpg" alt="" class="img-responsive"></a>
-							</div>
-							<div class="col-md-7 fea-text">
-								<h4><a href="#">Ducimus odio dignissimos</a></h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-							</div>
-						</div>
-					   <div class="clearfix"> </div>
-				   </div>
-				   <div class="feature-bott1">
-						<div class="col-md-6 feature-grid">
-							<div class="col-md-5 fea-img">
-								<a href="#"><img src="images/f3.jpg" alt="" class="img-responsive"></a>
-							</div>
-							<div class="col-md-7 fea-text">
-								<h4><a href="#">Et iusto odio dignissimos</a></h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-							</div>
-						  <div class="clearfix"> </div>
-						</div>
-						<div class="col-md-6 feature-grid">
-							<div class="col-md-5 fea-img">
-								<a href="#"><img src="images/f4.jpg" alt="" class="img-responsive"></a>
-							</div>
-							<div class="col-md-7 fea-text">
-								<h4><a href="#">Ducimus odio dignissimos</a></h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-							</div>
-						</div>
-					   <div class="clearfix"> </div>
-				   </div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<!--features end here->
 <!--clients start here-->
-<div class="client">
+<div class="client" id="client">
 	<div class="container">
 		<div class="clients-main">
             <h3>Testimonials</h3>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+			<p>Don't take our word for it. See what past customers have said about our service.</p>
 			  <section class="slider">
 						<div class="flexslider">
 							<ul class="slides">
 								<li>
-									<img src="images/w.jpg" alt="" class="img-responsive">
-									<h4>Neque porro quisquam</h4>
-									<h5>CEO & Director</h5>
+									<img src="http://s3-media2.fl.yelpcdn.com/photo/IOcB_X1GLQmjjWHcx4BKXg/60s.jpg" alt="" class="img-responsive">
+									<p>I was having problems with the airflow in my living room. Neither heating or cooling were working properly. I got to Right Choice via a recommendation from a friend, called them up and was given a quote immediately over the phone. They sent a technician out the same day.
+Now, being extremely non-handy, they could have easily upsold me on replacing the air ducts completely, but they didn't, the technician told me that just cleaning the ducts will do just fine. 
+And it did just that. Air flow is excellent now, and the whole place just smells cleaner, I guess due to the replaced filters. All in all, excellent work and no complaints whatsoever.</p>
+									<h5><a href="http://www.yelp.com/user_details?userid=Q8YC_dn2Y9XFncvz_vsrVg" target="_blank">Dusan S.</a></h5>
 								</li>
 								<li>	
-									<img src="images/w1.jpg" alt="" class="img-responsive">
-									<h4>Neque porro quisquam</h4>
-									<h5>CEO & Director</h5>
+									<img src="http://s3-media3.fl.yelpcdn.com/photo/WNSATdKzBzq-IGZozDQU1w/60s.jpg" alt="" class="img-responsive">
+									<p>A job done very professionally. I have ordered a technician to clean the ducts. He was (refreshingly) punctual and quick and I was billed the same amount I was quoted on.
+A week later, I ordered a Nest thermostat and had it installed by Right Choice for $50. 
+Overall, very quick, painless and no sneaky up-selling techniques or pressure. Will use them again in the future.</p>
+									<h5><a href="http://www.yelp.com/user_details?userid=tCdrK-hM9aa74Fabc5WC0A" target="_blank">Ivana T.</a></h5>
 								</li>
 								<li>
-									<img src="images/w2.jpg" alt="" class="img-responsive">
-									<h4>Neque porro quisquam</h4>
-									<h5>CEO & Director</h5>
+									<img src="http://s3-media3.fl.yelpcdn.com/photo/5_V2Dgizys8SPREfsb6zww/60s.jpg" alt="" class="img-responsive">
+									<p>Let me start by saying I'm not the easiest guy to satisfy ! I have very high standards when it gets to costumer service and professional ethics in  businesses. 
+The right choice - that's 100% right,it was indeed the perfect choice for us.
+They preformed an amazing full unit installation in our office building.  From the initial conversation with The office to a quick,clean and professional installation.  Thank you Tomer and the right choice, we will definitely do more business in the near future.</p>
+									<h5>
+Roy B.</h5>
 								</li>	
 								<div class="clearfix"> </div>
 							</ul>
@@ -305,7 +238,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="container">
 		<div class="contact-main">
 			  <h3>Contact Us</h3>
-			  <form>
+            <div class="col-lg-6" style="padding: 10px;">
+                     <a href="therightchoicehvac.com/get-a-quote" class="btn btn-primary btn-lg" role="button" style="color:black;" id="contactBtn2" name="contactBtn2"
+                        onclick="dataLayer.push({
+                        'leadForm' : 'contactBtn2'});">
+                         Get a Quote
+                    </a>    
+                </div>
+            <div class="col-lg-6" style="padding: 10px;">
+                     <a href="tel:+18187349105 " class="btn btn-primary btn-lg" role="button" style="color:black;" id="callBtn1" name="callBtn1"
+                        onclick="dataLayer.push({
+                        'leadForm' : 'contactBtn1'});">
+                         Call Us
+                    </a>    
+                </div>
+            <!--
+<form>
 			  	<div class="input-main">
 			  	  <span class="glyphicon glyphicon-user" aria-hidden="true"> </span>
 			  	   <input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
@@ -321,6 +269,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  	<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Messages';}">Messages</textarea>
 			  	<input type="submit" value="Send">
 			  </form>
+-->
 			<div class="clearfix"> </div>
 		</div>
 	</div>
@@ -335,7 +284,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="copy-right-main">
 	<div class="container">
         <div class="copy-right">
-			<p>© 2015 Your App All rights reserved | Design by  <a href="http://w3layouts.com/" target="_blank">  W3layouts </a></p>
+			<p>© 2015 The Right Choice HVAC | Design by  <a href="http://w3layouts.com/" target="_blank">  W3layouts </a></p>
 		</div>
 		<script type="text/javascript">
 										$(document).ready(function() {
